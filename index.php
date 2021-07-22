@@ -88,6 +88,7 @@ include 'inc/en/header.php';
         'nop'     => 'http://noproblems.ma',
         'mediafire' => 'https://mediafire.ma',
         'pub' => 'https://pubstudiopro.ma',
+        'spoy' => 'https://spoy.ma',
       ); 
        foreach ($projects as $project => $link){ ?>
          <div class="col-md-6">
