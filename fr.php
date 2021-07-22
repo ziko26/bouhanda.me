@@ -87,11 +87,12 @@ include 'inc/fr/header.php';
         'nop'     => 'http://noproblems.ma',
         'mediafire' => 'https://mediafire.ma',
         'pub' => 'https://pubstudiopro.ma',
+        'spoy' => 'https://spoy.ma',
       ); 
        foreach ($projects as $project => $link){ ?>
          <div class="col-md-6">
         <div class="proj">
-          <img class="img-responsive" src="imgs/projects/<?php echo $project;?>.png" alt="<?php echo $project; ?>>
+          <img class="img-responsive" src="imgs/projects/<?php echo $project;?>.png" alt="<?php echo $project; ?>">
           <a class="btn btn-success" href="<?php echo $link;?>" target="_blanck"><i class="fa fa-search-plus"></i> Regarder en direct</a>
         </div>
       </div>
