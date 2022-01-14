@@ -87,8 +87,9 @@ include 'inc/en/header.php';
         'agency'  => 'http://agency1.netlify.app',
         'nop'     => 'http://noproblems.ma',
         'mediafire' => 'https://mediafire.ma',
-        'pub' => 'https://pubstudiopro.ma',
+        'mediano' => 'https://mediano.ma',
         'spoy' => 'https://spoy.ma',
+        'g-ulf' => 'https://g-ulf.com',
       ); 
        foreach ($projects as $project => $link){ ?>
          <div class="col-md-6">
